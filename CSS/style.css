@@ -21,10 +21,6 @@
     font-family: Merriweather;
     font-size: 32px;
     font-weight: 400;
-    /* margin-top: 177px; */
-    /* margin-left: 530px;
-    margin-right: 530px; */
-
     padding-top: 177px;
     padding-left: 530px;
     padding-right: 530px;
@@ -39,10 +35,6 @@
     font-style: normal;
     font-weight: 900;
     width: 630px;
-    /* margin-top: 16px;
-    margin-left: 344px;
-    margin-bottom: 0px;
-    margin-left: 344px;  used these for testing*/
     margin: 16px auto;
 
 }
@@ -293,9 +285,9 @@
     z-index: 1;
     cursor: pointer;
 
-    /* scale(1.1) --> make the image 10% bigger of the actal image
+    /* scale(1.1) --> makes the image 10% bigger of the actal image
 
-    scale(0.1) --> make the image down to 10%(very small) */
+    scale(0.1) --> makes the image down to 10%(very small) */
 }
 
 
@@ -366,6 +358,7 @@ input {
 }
 
 input::placeholder {
+    /* applying css to the placeholder of input tag */
     color: rgba(7, 2, 17, 0.30);
     font-family: Inter;
     font-size: 18px;
