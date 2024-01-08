@@ -1,0 +1,216 @@
+* {
+    font-family: 'Merriweather', serif, 'Inter', sans-serif;
+}
+
+.banner {
+    width: 1320px;
+    height: 600px;
+    margin: 50px 140px 0px 140px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../Assets/images/Banner\ Image.png");
+    justify-content: center;
+    background-size: cover;
+    opacity: 3;
+    border-radius: 16px;
+    /* linear-gradient is used to give a dark shade inside an image*/
+
+}
+
+.new {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    /* margin-top: 177px; */
+    /* margin-left: 530px;
+    margin-right: 530px; */
+
+    padding-top: 177px;
+    padding-left: 530px;
+    padding-right: 530px;
+
+}
+
+.year {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    width: 630px;
+    /* margin-top: 16px;
+    margin-left: 344px;
+    margin-bottom: 0px;
+    margin-left: 344px;  used these for testing*/
+    margin: 16px auto;
+
+}
+
+.off {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 0px;
+}
+
+.deals {
+    color: #F00;
+    text-align: center;
+    /* lined INTER FONT FAMILY in html file */
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 48px;
+}
+
+.catagories {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 0px;
+
+}
+
+.middle .newyearphoto {
+    width: 802px;
+    height: 500px;
+    margin-bottom: 120px;
+}
+
+.middle {
+    text-align: center;
+
+}
+
+.midnight {
+    width: 1320px;
+    height: 600px;
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../Assets/images/Vectorrr.png");
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px auto;
+    border-radius: 10px;
+
+}
+
+.mid-content .party {
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: 7.04px;
+
+    margin-top: 126px;
+    margin-left: 126px;
+    margin-right: 200px;
+}
+
+.co {
+    color: #F00;
+}
+
+.mid-content {
+    display: block;
+}
+
+.mid-content p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-left: 126px;
+
+}
+
+.group {
+    margin-right: 150px;
+    margin-top: 75px;
+
+
+}
+
+.mid-content .btn {
+    padding: 10px;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 156px;
+    background: transparent;
+}
+
+.mid-content .btn:hover {
+    background-color: #F00;
+    transition: .7s;
+    color: rgb(241, 241, 241);
+    padding: 10px 12px;
+    cursor: pointer;
+}
+
+.location {
+    width: 1320px;
+    height: 482px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    text-align: center;
+    margin: 120px auto;
+
+}
+
+.red {
+    color: #F00;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.black {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.loc-contant {
+    padding: 100px 386px 214px 386px;
+}
+
+.btncolor {
+    border: none;
+    font-family: Inter;
+    padding: 16px 32px;
+    border-radius: 8px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.but{
+    margin-top: 48px;
+}
+
+.btncolor:hover{
+    padding: 15px;
+    transition: .7s;
+    cursor: pointer;
+    opacity: 70%;
+   
+}
