@@ -47,6 +47,8 @@
 
 }
 
+/* THIS IS OFF PART -----------------*/
+
 .off {
     color: #F00;
     text-align: center;
@@ -79,6 +81,9 @@
     margin-top: 0px;
 
 }
+
+
+/* THIS IS MIDDLE PART ---------------*/
 
 .middle .newyearphoto {
     width: 802px;
@@ -162,6 +167,9 @@
     cursor: pointer;
 }
 
+
+/* THIS IS LOCATION PART---------------- */
+
 .location {
     width: 1320px;
     height: 482px;
@@ -203,14 +211,84 @@
 
 }
 
-.but{
+.but {
     margin-top: 48px;
 }
 
-.btncolor:hover{
+.btncolor:hover {
     padding: 15px;
     transition: .7s;
     cursor: pointer;
     opacity: 70%;
-   
+
+}
+
+
+
+/* THIS IS MAIN PART------------------ */
+
+
+
+.main-part {
+    width: 1600px;
+    background: #FFF;
+    text-align: center;
+}
+
+.main-part .head {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 0px;
+
+}
+
+.main-part .para1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    margin-top: 16px;
+}
+
+.main-part .para2 {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 22px;
+
+}
+
+.main-images {
+    display: flex;
+    justify-content: center;
+}
+
+.chobi{
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.chobi img{
+    padding: 8px 8px 8px 8px;
+    width: 424px;
+    height: 450px;
+    transition:0.9s;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+}
+
+.chobi img:hover{
+    transform: scale(1.1);
+    z-index: 1;
+    cursor: pointer;
+
+    /* scale(1.1) --> make the image 10% bigger of the actal image
+
+    scale(0.1) --> make the image down to 10%(very small) */
 }
