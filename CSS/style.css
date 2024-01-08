@@ -285,7 +285,7 @@
     width: 424px;
     height: 450px;
     transition: 0.9s;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 4px rgba(224, 188, 188, 0.1);
 }
 
 .chobi img:hover {
@@ -336,27 +336,6 @@
 
 }
 
-/* .input {
-    width: 648px;
-    height: 72px;
-    margin: 0px auto;
-    margin-top: 48px;
-    text-align: center;
-
-} */
-/* 
-.input .in{
-    border-radius: 20px 0px 0px 20px ;
-    
-    padding: 20px ;
-}
-
-.input .bt{
-    padding: 20px;
-    border-radius: 0px 20px 20px 0;
-    margin-left: 0px;
-} */
-
 
 input {
     height: 72px;
@@ -396,7 +375,7 @@ input::placeholder {
 
 /* FOOTER PART------------------- */
 
-footer {
+footer  {
     width: 1600px;
     height: 609px;
     background-color: #070211;
@@ -434,6 +413,50 @@ footer {
 
 .links{
     text-align: center;
+    cursor: pointer;
+}
+
+.links img{
+    height: 64px;
+    width: 64px;
+}
+
+.links a{
+    text-decoration: none;
+}
+
+.rights p,button{
+    color: #FFF;
+}
+.rights{
+    display: flex;
+    justify-content: space-around;
+}
+.rights p{
+color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+}
+
+.rights button{
+color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+background: transparent;
+color: #FFF;
+border: none;
+transition: 0.6s;
+cursor: pointer;
+
+}
+
+.rights button:hover{
+    background-color: #F00;
+    border-radius: 10px;
+
 }
 
 
